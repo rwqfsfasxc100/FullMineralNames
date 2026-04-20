@@ -1,0 +1,11 @@
+;MOD_ID|hev.FullMineralNames
+;MOD_NAME|Full Mineral Names
+;MOD_ZIP_NAME|FullMineralNames.zip
+
+[b]Full Mineral Names[/b]
+
+Converts all instances of a mineral's symbol into their full mineral name. 
+
+Used in places like the mineral market, cargo bay and processed mineral displays, and Geologist identification markers.
+
+Also supports minerals added by: [i]Hev's More Minerals[/i]
