@@ -8,127 +8,127 @@ extends Node
 const TRANSLATIONS = {
 	"master_locale": "en",
 	"en": {
-		"Be": {
+		"MINERALNAME_Be": {
 			"string": "Beryllium",
 			"version_hash": 2579056954
 		},
-		"C": {
+		"MINERALNAME_C": {
 			"string": "Carbon",
 			"version_hash": 2873369242
 		},
-		"Ca": {
+		"MINERALNAME_Ca": {
 			"string": "Calcium",
 			"version_hash": 324818691
 		},
-		"Ti": {
+		"MINERALNAME_Ti": {
 			"string": "Titanium",
 			"version_hash": 2845827248
 		},
-		"V": {
+		"MINERALNAME_V": {
 			"string": "Vanadium",
 			"version_hash": 206386394
 		},
-		"Fe": {
+		"MINERALNAME_Fe": {
 			"string": "Iron",
 			"version_hash": 2089224925
 		},
-		"Ni": {
+		"MINERALNAME_Ni": {
 			"string": "Nickel",
 			"version_hash": 3312816347
 		},
-		"Cu": {
+		"MINERALNAME_Cu": {
 			"string": "Copper",
 			"version_hash": 2889915182
 		},
-		"W": {
+		"MINERALNAME_W": {
 			"string": "Tungsten",
 			"version_hash": 936067997
 		},
-		"Re": {
+		"MINERALNAME_Re": {
 			"string": "Rhenium",
 			"version_hash": 2783010653
 		},
-		"Pt": {
+		"MINERALNAME_Pt": {
 			"string": "Platinum",
 			"version_hash": 3028969583
 		},
-		"Au": {
+		"MINERALNAME_Au": {
 			"string": "Gold",
 			"version_hash": 2089149675
 		},
-		"Mg2SiO4": {
+		"MINERALNAME_Mg2SiO4": {
 			"string": "Forsterite",
 			"version_hash": 2990213548
 		},
-		"Fe2SiO4": {
+		"MINERALNAME_Fe2SiO4": {
 			"string": "Fayalite",
 			"version_hash": 1641875604
 		},
-		"MgCaSi2O6": {
+		"MINERALNAME_MgCaSi2O6": {
 			"string": "Diopside",
 			"version_hash": 3672830646
 		},
-		"NaAlSi2O6": {
+		"MINERALNAME_NaAlSi2O6": {
 			"string": "Jadeite",
 			"version_hash": 765744347
 		},
-		"CaMn2Si2O6": {
+		"MINERALNAME_CaMn2Si2O6": {
 			"string": "Johannsenite",
 			"version_hash": 3306340107
 		},
-		"NaCr3Si2O6": {
+		"MINERALNAME_NaCr3Si2O6": {
 			"string": "Kosmochlor",
 			"version_hash": 3640712166
 		},
-		"NaMn3Si2O6": {
+		"MINERALNAME_NaMn3Si2O6": {
 			"string": "Namansilite",
 			"version_hash": 1527264506
 		},
-		"NaV3Si2O6": {
+		"MINERALNAME_NaV3Si2O6": {
 			"string": "Natalyite",
 			"version_hash": 3230076144
 		},
-		"LiAl(SiO3)2": {
+		"MINERALNAME_LiAl(SiO3)2": {
 			"string": "Spodumene",
 			"version_hash": 1703492469
 		},
-		"MgSiO3": {
+		"MINERALNAME_MgSiO3": {
 			"string": "Enstatite",
 			"version_hash": 2248990486
 		},
-		"SiO2": {
+		"MINERALNAME_SiO2": {
 			"string": "Quartz",
 			"version_hash": 3444389836
 		},
-		"SiO2 (Crs)": {
+		"MINERALNAME_SiO2 (Crs)": {
 			"string": "Cristobalite",
 			"version_hash": 3789545706
 		},
-		"SiO2 (Trd)": {
+		"MINERALNAME_SiO2 (Trd)": {
 			"string": "Tridymite",
 			"version_hash": 3841219968
 		},
-		"NaAlSi3O8": {
+		"MINERALNAME_NaAlSi3O8": {
 			"string": "Albite",
 			"version_hash": 2807576374
 		},
-		"CaAl2Si2O8": {
+		"MINERALNAME_CaAl2Si2O8": {
 			"string": "Anorthite",
 			"version_hash": 2094601171
 		},
-		"KAlSi3O8": {
+		"MINERALNAME_KAlSi3O8": {
 			"string": "Orthoclase",
 			"version_hash": 2986417081
 		},
-		"H2O": {
+		"MINERALNAME_H2O": {
 			"string": "Water",
 			"version_hash": 240943016
 		},
-		"Pd": {
+		"MINERALNAME_Pd": {
 			"string": "Palladium",
 			"version_hash": 1518614142
 		},
-		"Mg": {
+		"MINERALNAME_Mg": {
 			"string": "Magnesium",
 			"version_hash": 2166792363
 		},
