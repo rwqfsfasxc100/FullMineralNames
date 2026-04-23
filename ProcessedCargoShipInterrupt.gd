@@ -12,6 +12,7 @@ func getProcessedCargoTypes(how):
 
 
 func getProcessedCargo(which,how):
+	which = which.split("MINERALNAME_")[1]
 	var out = ship.getProcessedCargo(which,how)
 	return out
 
