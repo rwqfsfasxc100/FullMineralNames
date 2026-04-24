@@ -1,9 +1,9 @@
 extends Node
 
-const MOD_PRIORITY = -98
+const MOD_PRIORITY = -1
 const MOD_NAME = "Full Mineral Names"
 const MOD_VERSION_MAJOR = 1
-const MOD_VERSION_MINOR = 0
+const MOD_VERSION_MINOR = 1
 const MOD_VERSION_BUGFIX = 0
 const MOD_VERSION_METADATA = ""
 var modPath:String = get_script().resource_path.get_base_dir() + "/"
@@ -14,8 +14,11 @@ func _init(modLoader = ModLoader):
 	installScriptExtension("MineralMark.gd")
 	installScriptExtension("hud/ProcessedCargoManifest.gd")
 	installScriptExtension("CurrentGame.gd")
-	installScriptExtension("SystemMineralList.gd")
+	installScriptExtension("MineralLabel.gd")
 	installScriptExtension("MineralSellSlider.gd")
+	replaceScene("hud/components/MineralLabel.tscn")
+	installScriptExtension("SystemMineralList.gd")
+	replaceScene("hud/OMS.tscn")
 
 func l(msg:String, title:String = MOD_NAME, version:String = str(MOD_VERSION_MAJOR) + "." + str(MOD_VERSION_MINOR) + "." + str(MOD_VERSION_BUGFIX)):
 	if not MOD_VERSION_METADATA == "":

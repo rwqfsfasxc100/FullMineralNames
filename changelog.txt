@@ -1,0 +1,12 @@
+[1.1.0]
+
+1="* Major rework of renaming logic. This mod will now only affect the following:"
+1.1="* Cargo bay scanner"
+1.2="* Cargo bay manifest"
+1.3="* Processed cargo storage"
+1.4="* Mineral Market"
+2="* Note: any other mods adding minerals will need to provide appropriate translations, due to these changes being a direct change in how the mineral name is written"
+
+[1.0.0]
+
+1="* Initial release"
