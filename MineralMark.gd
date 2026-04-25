@@ -7,16 +7,18 @@ func _ready():
 
 func scanParent(parent):
 	marker_rename_mineral_obj.__set_target(parent)
-	return .scanParent(marker_rename_mineral_obj)
+	if not "__shadowed_object_ref_4134528785__" in parent:
+		parent = marker_rename_mineral_obj
+	return .scanParent(parent)
 
 func identifyMinerals():
-	var ominerals = minerals
-	var nm = {}
-	for i in minerals:
-		var minname = i.split("MINERALNAME_")[1]
-		nm[minname] = minerals[i]
-	minerals = nm
+#	var ominerals = minerals
+#	var nm = {}
+#	for i in minerals:
+#		var minname = i.split("MINERALNAME_")[1]
+#		nm[minname] = minerals[i]
+#	minerals = nm
 	if "__shadowed_object_ref_4134528785__" in item:
 		item = item.__shadowed_object_ref_4134528785__
 	.identifyMinerals()
-	minerals = ominerals
+#	minerals = ominerals

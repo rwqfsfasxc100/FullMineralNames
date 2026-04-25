@@ -10,6 +10,7 @@ var modPath:String = get_script().resource_path.get_base_dir() + "/"
 var _savedObjects := []
 func _init(modLoader = ModLoader):
 	l("Initializing")
+	installScriptExtension("ship-ctrl.gd")
 	installScriptExtension("hud/CargoScanner.gd")
 	installScriptExtension("MineralMark.gd")
 	installScriptExtension("hud/ProcessedCargoManifest.gd")
