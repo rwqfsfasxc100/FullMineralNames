@@ -1,3 +1,8 @@
+[1.1.2]
+
+1="* Fixed edge cases where minerals would be able to override the mineral filters"
+2="* Mineral history should now function properly"
+
 [1.1.1]
 
 1="* Fixed issues during the identification of minerals that would prevent geologist filters from working properly"
