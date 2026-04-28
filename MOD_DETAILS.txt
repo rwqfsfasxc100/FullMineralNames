@@ -1,5 +1,6 @@
 ;MOD_ID|hev.FullMineralNames
 ;MOD_NAME|Full Mineral Names
+;MOD_ICON|https://raw.githubusercontent.com/rwqfsfasxc100/FullMineralNames/refs/heads/main/icon.png
 ;MOD_ZIP_NAME|FullMineralNames.zip
 
 [b]Full Mineral Names[/b]
