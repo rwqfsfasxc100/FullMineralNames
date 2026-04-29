@@ -1,3 +1,7 @@
+[1.1.4]
+
+1="* Fixed issue that caused issues when the ship tried to determine specific mineral limits"
+
 [1.1.3]
 
 1="* Fixed issue that caused any scenes replaced by this mod to cause issues with other mods"
