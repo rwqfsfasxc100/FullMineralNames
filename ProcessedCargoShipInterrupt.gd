@@ -18,6 +18,7 @@ func getProcessedCargo(which,how):
 
 
 func getProcessedCargoCapacity(how):
+	how = how.split("MINERALNAME_")[1]
 	var out = ship.getProcessedCargoCapacity(how)
 	return out
 
