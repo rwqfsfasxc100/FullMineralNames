@@ -4,7 +4,7 @@
 ;AUTHOR|__hev
 ;MOD_ZIP_NAME|FullMineralNames.zip
 
-[b]Full Mineral Names[/b]
+[center][b]Full Mineral Names[/b][/center]
 
 Converts all instances of a mineral's symbol into their full mineral name. 
 
