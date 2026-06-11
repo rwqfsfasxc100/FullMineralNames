@@ -1,3 +1,7 @@
+[1.2.0]
+
+1="* Converted into modlet"
+
 [1.1.4]
 
 1="* Fixed issue that caused issues when the ship tried to determine specific mineral limits"
