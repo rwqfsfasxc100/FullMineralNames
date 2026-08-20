@@ -1,3 +1,8 @@
+[1.2.1]
+
+1=* Updated credits to use translation strings
+2=* Added licensing
+
 [1.2.0]
 
 1="* Converted into modlet"
