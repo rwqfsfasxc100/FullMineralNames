@@ -5,30 +5,42 @@ id="hev.FullMineralNames"
 description="FULLMINERALS_DESCRIPTION"
 brief="FULLMINERALS_BRIEF"
 author="__hev"
-credits=["   --- Supporters ---   ","GAZI - supporter (ko-fi)","Bagger dude - supporter (ko-fi)","WT - supporter (ko-fi)", "Tessier-Ashpool S.A. - supporter (ko-fi)"]
+credits=PoolStringArray( "HEVLIB_CREDITS_SUPPORTERS_HEADER", "HEVLIB_CREDITS_SUPPORTERS_KOFI_GAZI", "HEVLIB_CREDITS_SUPPORTERS_KOFI_BAGGERDUDE", "HEVLIB_CREDITS_SUPPORTERS_KOFI_1WT1", "HEVLIB_CREDITS_SUPPORTERS_KOFI_TESSIER" )
 
 [version]
 
 version_major=1
 version_minor=2
 version_bugfix=0
-version_metadata=""
 
 [tags]
 
-TAG_VISUAL={"type":"bool","value":true}
+TAG_VISUAL={
+"type": "bool",
+"value": true
+}
+
+[links]
+
+HEVLIB_GITHUB={
+"URL": "https://github.com/rwqfsfasxc100/FullMineralNames"
+}
+HEVLIB_DISCORD={
+"URL": "https://discord.com/channels/426287934870781952/1494935260410937454"
+}
+HEVLIB_NEXUS={
+"URL": "https://www.nexusmods.com/dvringsofsaturn/mods/30"
+}
+HEVLIB_DONATIONS={
+"URL": "https://ko-fi.com/00hev"
+}
+HEVLIB_BUGREPORTS={
+"URL": "https://forms.gle/vUoarawnYjy3hXJi9"
+}
 
 [languages]
 
 en="100%"
-
-[links]
-
-HEVLIB_GITHUB={"URL":"https://github.com/rwqfsfasxc100/FullMineralNames"}
-HEVLIB_DISCORD={"URL":"https://discord.com/channels/426287934870781952/1494935260410937454"}
-HEVLIB_NEXUS={"URL":"https://www.nexusmods.com/dvringsofsaturn/mods/30"}
-HEVLIB_DONATIONS={"URL":"https://ko-fi.com/00hev"}
-HEVLIB_BUGREPORTS={"URL":"https://forms.gle/vUoarawnYjy3hXJi9"}
 
 [manifest_definitions]
 
@@ -36,3 +48,4 @@ manifest_version=2.2
 manifest_url="https://raw.githubusercontent.com/rwqfsfasxc100/FullMineralNames/refs/heads/main/Mod.manifest"
 changelog_path="changelog.txt"
 modlet_priority=-1
+expected_manifest_path="res://FullMineralNames/Mod.manifest"
