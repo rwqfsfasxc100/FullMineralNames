@@ -36,8 +36,7 @@ var ship
 
 func getProcessedCargoTypes(how):
 	var out = ship.getProcessedCargoTypes(how)
-	var s = out.size()
-	for i in range(s):
+	for i in out.size():
 		var current = out[i]
 		out[i] = "MINERALNAME_" + current
 	return out
