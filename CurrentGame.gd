@@ -35,7 +35,7 @@ extends "res://CurrentGame.gd"
 var fullminerals_mineralcolourdefiner_uinit : bool = false
 func _ready():
 	if fullminerals_mineralcolourdefiner_uinit:
-		OS.kill(OS.get_process_id())
+		ModLoader._savedObjects[0].main_modmain.log_double_load_error(get_script().resource_path)
 	fullminerals_mineralcolourdefiner_uinit = true
 	var colors = CurrentGame.specificMineralColors.duplicate(true)
 	for i in colors:
