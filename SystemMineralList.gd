@@ -34,6 +34,6 @@ extends "res://hud/SystemMineralList.gd"
 var fullminerals_minerallabeldefiner_uinit : bool = false
 func _ready():
 	if fullminerals_minerallabeldefiner_uinit:
-		ModLoader._savedObjects[0].main_modmain.log_double_load_error(get_script().resource_path)
+		ModLoader._savedObjects[0].log_double_load_error(get_script().resource_path)
 	fullminerals_minerallabeldefiner_uinit = true
 	mineralLabel = ResourceLoader.load("res://hud/components/MineralLabel.tscn","",true)
